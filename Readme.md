@@ -62,7 +62,3 @@ The goal is to analyze accuracy, efficiency, and interpretability of modern tran
   - Jupyter Notebook  
   - VS Code  
   - Git & GitHub  
-
----
-
-## 📂 Project Structure
