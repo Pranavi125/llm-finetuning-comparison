@@ -1,0 +1,49 @@
+# ==================================================
+# LLM Fine-Tuning Comparison – requirements.txt
+# ==================================================
+
+# -------------------------------
+# Hugging Face core libraries
+# -------------------------------
+transformers>=4.40.0
+datasets>=2.13.0
+evaluate>=0.4.0
+
+# -------------------------------
+# Deep Learning backend
+# -------------------------------
+torch>=2.1.0
+
+# -------------------------------
+# Training acceleration
+# -------------------------------
+accelerate>=0.24.0
+
+# -------------------------------
+# Data handling & utilities
+# -------------------------------
+pandas>=1.5.0
+tqdm>=4.65.0
+numpy>=1.23.0
+
+# -------------------------------
+# Experiment tracking (optional but professional)
+# -------------------------------
+wandb>=0.15.0
+
+# -------------------------------
+# Configuration & file handling
+# -------------------------------
+pyyaml>=6.0
+
+# -------------------------------
+# Development & code quality
+# -------------------------------
+black>=23.9.0
+flake8>=6.0.0
+
+# -------------------------------
+# Notes:
+# - Python standard libraries (os, json, math, argparse) are not listed
+# - CUDA/cuDNN are installed separately if GPU is used
+# ==================================================
